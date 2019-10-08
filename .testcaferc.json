@@ -1,0 +1,9 @@
+{
+    "src": "./src/**/*test.ts",
+    "screenshotPath": "./screenshots",
+    "screenshotPathPattern": "${DATE}_${TIME}/${BROWSER}/${FIXTURE}/${TEST}.png",
+    "takeScreenshotsOnFails": true,
+    "pageLoadTimeout": 30000,
+    "selectorTimeout": 12000,
+    "skipJsErrors": true
+}
